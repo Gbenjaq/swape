@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Varela+Round&display=swap');
+:root{
+	--color-swape: #09090d;
+	--color-Features: #101117;
+	--color-Features2: #121520;
+	--color-Redes: #151721;
+	--color-Footer: #040406;
+	--color-naranja: #EDB44D;
+	--color-gris: #dbdce4;
+	--color-textofooter: #373946;
+}
+
+body{
+	font-family: 'varela', sans-serif;
+	font-size: 14px;
+}
+
+.navbar{
+	overflow: hidden;
+	background-color: #fff;
+	padding: 20px;
+}
+
+.navbar a {
+	float: right;
+	display: block;
+	color: rgba(118,118,118,1.00);
+	text-align: center;
+	padding: 14px 25px;
+	text-decoration: none;
+	font-weight: bold;
+	
+}
+
+.navbar a:hover{
+	color: #EDB44D;
+}
+
+#start{
+	color: #fff;
+	background-color: #09090d;
+	height: 500px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.start-text{
+	text-align: left;
+	float: left;
+	padding-top: 40px;
+}
+
+.start-text h3{
+	color: #EDB44D;
+	font-weight: lighter;
+	letter-spacing: 2px;
+}
+
+.start-text h1{
+	color: #fff;
+	font-weight: bold;
+	font-size: 80px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.start-text p{
+	color: #373946;
+	font-size: 17px;
+	letter-spacing: 1px;
+}
+
+.start-text button{
+	color: #fff;
+	background-color: #373946;
+	padding: 10px 35px;
+	border-radius: 30px;
+	border: none;
+}
+
+.start-photo{
+	float: right;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	padding-right: 50px;
+	position: relative;
+}
+
+.start-photo-1{
+	margin-top: -410px;
+	position: absolute;
+	right: 150px;
+}
+.start-photo-2{
+	position: absolute;
+	top: 210px;
+}
+
+.text{
+	color: #dbdce4;
+}
+
+#footer{
+	color: #373946;
+	padding: 15px;
+	text-align: center;
+	background-color: #09090d;
+}
